@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://lmm.pages.dev
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
@@ -12,11 +12,11 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 permalinks:
     post: /p/:slug/
@@ -41,7 +41,7 @@ params:
         emoji: 🍥
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
-            enabled: true
+            enabled: false
             local: true
             src: img/avatar.png
 
@@ -55,7 +55,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: twikoo
 
         disqusjs:
             shortname:
@@ -99,7 +99,7 @@ params:
                 admin: Admin
 
         twikoo:
-            envId:
+            envId: twikoo-2g36bkuz88660f27
             region:
             path:
             lang:
